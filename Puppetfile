@@ -36,7 +36,7 @@ github "boxen", "3.3.4"
 
 #github "dnsmasq",    "1.0.1"
 github "foreman",    "1.0.0"
-github "gcc",        "2.0.1"
+#github "gcc",        "2.0.1"
 github "git",        "1.2.5"
 github "go",         "1.0.0"
 github "homebrew",   "1.6.0"
@@ -52,8 +52,15 @@ github "repository", "2.2.0"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
+github "skype",	     "1.0.8"
+github "onepassword","1.1.0"
+github "wget", 	     "1.0.0"
+github "transmit",   "1.0.0"
+github "sequel_pro", "1.0.1"
+github "quicksilver", "1.2.0"
+github "sublime_text_2", "1.1.2"
+github "omnigraffle", "1.3.0"
 
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "Skype",	"1.0.8"

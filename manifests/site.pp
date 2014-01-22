@@ -1,7 +1,14 @@
 require boxen::environment
 require homebrew
-require gcc
 require skype
+require onepassword
+require wget
+require transmit
+require sequel_pro
+require quicksilver
+require sublime_text_2
+#require utorrent
+require omnigraffle::pro
 
 Exec {
   group       => 'staff',
