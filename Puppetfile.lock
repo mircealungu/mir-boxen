@@ -1,12 +1,12 @@
 GITHUBTARBALL
+  remote: boxen/puppet-Skype
+  specs:
+    Skype (1.0.8)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
-  specs:
-    dnsmasq (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -31,22 +31,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.5.1)
+    homebrew (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.3)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nginx
-  specs:
-    nginx (1.4.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (3.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -69,11 +59,6 @@ GITHUBTARBALL
     repository (2.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-ruby
-  specs:
-    ruby (6.7.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -94,22 +79,19 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  Skype (= 1.0.8)
   boxen (= 3.3.4)
-  dnsmasq (= 1.0.1)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
   go (= 1.0.0)
-  homebrew (= 1.5.1)
+  homebrew (= 1.6.0)
   hub (= 1.0.3)
   inifile (= 1.0.0)
-  nginx (= 1.4.2)
-  nodejs (= 3.3.0)
   openssl (= 1.0.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
-  ruby (= 6.7.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   xquartz (= 1.1.0)
