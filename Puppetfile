@@ -51,16 +51,16 @@ github "repository", "2.2.0"
 #github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
-github "xquartz",    "1.1.0"
-github "skype",	     "1.0.8"
+#github "xquartz",    "1.1.0"
+
+
+# Optional/custom modules. There are tons available at
+# https://github.com/boxen.
+github "skype",      "1.0.8"
 github "onepassword","1.1.0"
-github "wget", 	     "1.0.0"
+github "wget",       "1.0.0"
 github "transmit",   "1.0.0"
 github "sequel_pro", "1.0.1"
 github "quicksilver", "1.2.0"
 github "sublime_text_2", "1.1.2"
 github "omnigraffle", "1.3.0"
-
-
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
