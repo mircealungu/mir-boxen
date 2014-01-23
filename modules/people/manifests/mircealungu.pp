@@ -17,7 +17,7 @@ class people::mircealungu {
     # make sure that we load the profile from scripts
 	file_line { 'personalized_profile_rule':
 	   path => '/Users/mircea/.profile',
-	   line => 'source scripts/profile',
+	   line => 'source /Users/mircea/scripts/profile',
 	}
 
 	package { 'Github for Mac':
