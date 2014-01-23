@@ -3,15 +3,28 @@ class people::mircealungu {
 	include osx::dock::autohide
 	include osx::universal_access::ctrl_mod_zoom
 
-
-
 	$my_homedir = '/Users/mircea'
 
 	notify { 'class mircealungu declared.': }
 
+  # useful scipts
 	repository { 
 		"/Users/mircea/scripts":
     	source => 'mircealungu/scripts',
+    }
+
+  #projecs
+  repository { 
+    "/Users/mircea/projects/Zeeguu-Web":
+      source => 'mircealungu/Zeeguu-Web',
+    }    
+  repository { 
+    "/Users/mircea/projects/Zeeguu-Browser":
+      source => 'mircealungu/Zeeguu-Browser',
+    }    
+  repository { 
+    "/Users/mircea/projects/PoliteSmalltalk":
+      source => 'mircealungu/PoliteSmalltalk',
     }
 
     # make sure that we load the profile from scripts
