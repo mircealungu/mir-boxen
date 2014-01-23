@@ -1,4 +1,5 @@
 
+
 require boxen::environment
 require homebrew
 require skype
@@ -10,6 +11,8 @@ require quicksilver
 require sublime_text_2
 #require utorrent
 require omnigraffle::pro
+require sysctl
+
 
 Exec {
   group       => 'staff',
@@ -62,10 +65,16 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  include dnsmasq
+  #include dnsmasq
   include git
   include hub
-  include nginx
+  #include gcc
+  #include nginx
+  
+  #mysql, and postgres fail miserably...
+  #include mysql
+  #include postgresql
+  
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

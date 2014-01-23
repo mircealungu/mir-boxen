@@ -9,6 +9,11 @@ GITHUBTARBALL
     foreman (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gcc
+  specs:
+    gcc (2.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.2.5)
@@ -54,6 +59,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (3.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-quicksilver
   specs:
     quicksilver (1.2.0)
@@ -84,6 +94,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-transmit
   specs:
     transmit (1.0.0)
@@ -106,6 +121,7 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.3.4)
   foreman (= 1.0.0)
+  gcc (= 2.0.1)
   git (= 1.2.5)
   go (= 1.0.0)
   homebrew (= 1.6.0)
@@ -116,6 +132,7 @@ DEPENDENCIES
   openssl (= 1.0.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
+  postgresql (= 3.0.0)
   quicksilver (= 1.2.0)
   repository (= 2.2.0)
   sequel_pro (= 1.0.1)
@@ -123,6 +140,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
   transmit (= 1.0.0)
   wget (= 1.0.0)
 
