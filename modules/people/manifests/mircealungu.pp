@@ -25,6 +25,21 @@ class people::mircealungu {
     	provider => compressed_app
   	}
 
+	package { 'Pomodoro Desktop':
+    	source   => 'http://download2us.softpedia.com/dl/3ead7e7096947241e044e6b404084eb3/52e05b40/400057530/mac/Business/pomodoro-0.31.zip',
+    	provider => compressed_app
+  	}
+
+  	package { 'WebStorm':
+    	ensure => installed,
+    	source => 'http://download.jetbrains.com/webstorm/WebStorm_7.0.3.dmg',
+    	provider => appdmg,
+  	}
+
+  	
+
+  	
+
 
 
 }
