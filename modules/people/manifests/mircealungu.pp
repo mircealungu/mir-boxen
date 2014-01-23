@@ -36,6 +36,14 @@ class people::mircealungu {
     	provider => appdmg,
   	}
 
+  	package { 'PyCharm':
+    	ensure => installed,
+    	source => 'http://download.jetbrains.com/python/pycharm-professional-3.0.2.dmg',
+    	provider => appdmg,
+  	}
+
+  	
+
   	
 
   	
